@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap'); 
 
 * {
   margin: 0;
@@ -8,8 +8,8 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #f4f4f9;
-  color: #333;
+  background-color: #e6f0e9; 
+  color: #2e3d25; 
   line-height: 1.6;
   display: flex;
   justify-content: center;
@@ -22,7 +22,7 @@ body {
 h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 2.5rem;
-  color: #333;
+  color: #355e3b; /* verde bosco */
   text-align: center;
   margin-bottom: 20px;
 }
@@ -38,10 +38,10 @@ h1 {
 }
 
 .scheda {
-  background-color: white;
+  background-color: #f9f9f4; /* beige naturale */
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(72, 106, 72, 0.2); /* ombra verde tenue */
   width: 100%;
   max-width: 300px;
   transition: transform 0.3s ease-in-out;
@@ -49,29 +49,30 @@ h1 {
 
 .scheda:hover {
   transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(72, 106, 72, 0.4);
 }
 
 .scheda img {
   width: 100%;
   height: 200px;
   object-fit: cover;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 3px solid #a7c08c; /* verde tenue */
 }
 
 .scheda h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
-  color: #333;
+  color: #2e3d25;
   padding: 15px;
-  background-color: #fff;
+  background-color: #f9f9f4;
   margin: 0;
 }
 
 .scheda p {
   font-size: 1.2rem;
-  color: #e74c3c;
+  color: #4a7c59; /* verde più chiaro */
   padding: 0 15px 15px;
-  background-color: #fff;
+  background-color: #f9f9f4;
   margin: 0;
 }
 
@@ -79,12 +80,12 @@ h1 {
   list-style: none;
   padding: 0 15px 15px;
   margin: 0;
-  background-color: #fff;
+  background-color: #f9f9f4;
 }
 
 .scheda li {
   font-size: 0.9rem;
-  color: #555;
+  color: #556b2f; /* verde oliva */
   margin-bottom: 5px;
 }
 
@@ -100,6 +101,8 @@ h1 {
   width: 600px;
   height: 400px;
   object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid #a7c08c;
 }
 
 .info-prodotto {
@@ -108,17 +111,17 @@ h1 {
 
 #nome-prodotto {
   font-size: 2.5rem;
-  color: #333;
+  color: #355e3b;
 }
 
 #prezzo-prodotto {
   font-size: 1.8rem;
-  color: #e74c3c;
+  color: #4a7c59;
 }
 
 #specifiche-prodotto {
   font-size: 1.2rem;
-  color: #555;
+  color: #556b2f;
 }
 
 #specifiche-prodotto li {
@@ -149,36 +152,41 @@ h1 {
 
 .prodotto-carrello img {
   margin-right: 20px;
+  border-radius: 8px;
+  border: 1px solid #a7c08c;
 }
 
 .prodotto-carrello h3 {
   margin: 0;
   font-size: 1.2rem;
+  color: #355e3b;
 }
 
 .prodotto-carrello p {
   margin: 0;
-  color: #e74c3c;
+  color: #4a7c59;
 }
 
 .prodotto-carrello button {
   margin-left: auto;
   padding: 5px 10px;
-  background-color: #e74c3c;
+  background-color: #355e3b;
   color: white;
   border: none;
+  border-radius: 6px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .prodotto-carrello button:hover {
-  background-color: #c0392b;
+  background-color: #2e3d25;
 }
 
 .login-container {
-  background-color: white;
+  background-color: #f9f9f4;
   padding: 40px;
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(72, 106, 72, 0.2);
   max-width: 400px;
   width: 100%;
   text-align: center;
@@ -189,7 +197,7 @@ h1 {
   font-size: 2rem;
   margin-top: 90px;
   margin-bottom: 20px;
-  color: #333;
+  color: #355e3b;
 }
 
 .login-container input[type="text"],
@@ -197,15 +205,17 @@ h1 {
   width: 100%;
   padding: 12px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #a7c08c;
   border-radius: 8px;
   font-size: 1rem;
+  color: #2e3d25;
+  background-color: #e6f0e9;
 }
 
 button {
   width: 100%;
   padding: 12px;
-  background-color: #e74c3c;
+  background-color: #355e3b;
   color: white;
   border: none;
   border-radius: 8px;
@@ -215,17 +225,17 @@ button {
 }
 
 button:hover {
-  background-color: #c0392b;
+  background-color: #2e3d25;
 }
 
 .login-container p {
   margin-top: 15px;
   font-size: 0.9rem;
-  color: #555;
+  color: #556b2f;
 }
 
 .login-container a {
-  color: #e74c3c;
+  color: #4a7c59;
   text-decoration: none;
 }
 
@@ -236,16 +246,16 @@ button:hover {
 .login-container h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 2.5rem;
-  color: #333;
+  color: #355e3b;
   text-align: center;
   margin-bottom: 20px;
 }
 
 .navbar {
   width: 100%;
-  background-color: #c0392b;
+  background-color: #4a7c59;
   padding: 15px 30px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(46, 61, 37, 0.3);
   position: fixed;
   top: 0;
   left: 0;
@@ -266,17 +276,17 @@ button:hover {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   color: #f4f4f9;
-  background-color: #c0392b;
+  background-color: #4a7c59;
   text-decoration: none;
   padding: 8px 12px;
-  border: 1px solid #e74c3c;
+  border: 1px solid #a7c08c;
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navbar-link:hover {
-  background-color: #e74c3c;
-  color: #fff;
+  background-color: #a7c08c;
+  color: #2e3d25;
 }
 
 .bottoni-carrello {
