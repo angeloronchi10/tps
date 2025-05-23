@@ -1,0 +1,119 @@
+[
+  {
+    "nome": "SolarSmart Laptop 14",
+    "prezzo": 1299,
+    "immagine": "./immagini/img1.jpg",
+    "specifiche": {
+      "Processore": "Intel Core i5 2.4GHz",
+      "RAM": "8 GB",
+      "Scheda Video": "Intel Iris Xe",
+      "Storage": "512 GB SSD",
+      "Materiali": "Aluminium riciclato, plastica biodegradabile",
+      "Batteria": "Lithium-ion con ricarica solare",
+      "Certificazioni": ["Energy Star", "EPEAT Gold"]
+    }
+  },
+  {
+    "nome": "EcoCharge Smartphone",
+    "prezzo": 899,
+    "immagine": "./immagini/img2.jpg",
+    "specifiche": {
+      "Processore": "Qualcomm Snapdragon 765G",
+      "RAM": "6 GB",
+      "Scheda Video": "Adreno 620",
+      "Storage": "128 GB SSD",
+      "Materiali": "Batteria in litio riciclato, schermo in vetro riciclato",
+      "Batteria": "4500 mAh con ricarica solare",
+      "Certificazioni": ["Fairphone", "Carbon Neutral"]
+    }
+  },
+  {
+    "nome": "EcoMonitor 27' 4K",
+    "prezzo": 599,
+    "immagine": "./immagini/img3.jpg",
+    "specifiche": {
+      "Risoluzione": "3840 x 2160",
+      "Dimensione": "27 pollici",
+      "Tecnologia Display": "LED ad alta efficienza energetica",
+      "Materiali": "Plastiche riciclate, vetro temperato ecologico",
+      "Certificazioni": ["Energy Star", "RoHS Compliant"],
+      "Consumo Energetico": "15W"
+    }
+  },
+  {
+    "nome": "GreenPhone Pro",
+    "prezzo": 1199,
+    "immagine": "./immagini/img4.jpg",
+    "specifiche": {
+      "Processore": "Apple A14 Bionic",
+      "RAM": "8 GB",
+      "Scheda Video": "Apple GPU",
+      "Storage": "256 GB SSD",
+      "Materiali": "Alluminio riciclato, plastica compostabile",
+      "Batteria": "3300 mAh con ricarica solare",
+      "Certificazioni": ["B Corp", "Carbon Neutral"]
+    }
+  },
+  {
+    "nome": "EcoSmart Speaker",
+    "prezzo": 199,
+    "immagine": "./immagini/img5.jpg",
+    "specifiche": {
+      "Tecnologia": "Bluetooth 5.0, Wi-Fi",
+      "Dimensioni": "15 x 8 x 8 cm",
+      "Materiali": "Legno riciclato, tessuti naturali",
+      "Autonomia": "12 ore di musica continua",
+      "Certificazioni": ["EPEAT", "Carbon Neutral"]
+    }
+  },
+  {
+    "nome": "SolarPower Battery Pack 10,000mAh",
+    "prezzo": 79,
+    "immagine": "./immagini/img6.jpg",
+    "specifiche": {
+      "Capacità": "10,000mAh",
+      "Porte": "2 USB-A, 1 USB-C",
+      "Materiali": "Plastica riciclata, silicio solare",
+      "Funzione Solare": "Ricarica tramite pannello solare",
+      "Certificazioni": ["Energy Star", "RoHS Compliant"]
+    }
+  },
+  {
+    "nome": "GreenPC Desktop",
+    "prezzo": 1399,
+    "immagine": "./immagini/img7.jpg",
+    "specifiche": {
+      "Processore": "Intel Core i7 3.0GHz",
+      "RAM": "16 GB",
+      "Scheda Video": "NVIDIA GTX 1660 Ti",
+      "Storage": "1 TB SSD",
+      "Materiali": "Case in alluminio riciclato, schede madri a basse emissioni",
+      "Certificazioni": ["EPEAT Gold", "Energy Star"],
+      "Consumo Energetico": "250W"
+    }
+  },
+  {
+    "nome": "EcoWear Smartwatch",
+    "prezzo": 249,
+    "immagine": "./immagini/img8.jpg",
+    "specifiche": {
+      "Display": "OLED touch 1.5'",
+      "Batteria": "5 giorni di autonomia",
+      "Materiali": "Fibra naturale, plastica riciclata",
+      "Funzioni": "Monitoraggio attività, GPS, notifiche",
+      "Certificazioni": ["Energy Star", "Fair Trade"]
+    }
+  },
+  {
+    "nome": "EcoCam 4K Security Camera",
+    "prezzo": 129,
+    "immagine": "./immagini/img9.jpg",
+    "specifiche": {
+      "Risoluzione": "3840 x 2160 4K",
+      "Visione Notturna": "Infrarossi",
+      "Connettività": "Wi-Fi, Bluetooth",
+      "Materiali": "Plastica riciclata, alluminio",
+      "Certificazioni": ["RoHS Compliant", "Energy Star"]
+    }
+  }
+]
